@@ -10,7 +10,7 @@ body{
 }
 header{
   height: 500px;
-  background-color: #3a1bd5db;
+  background-color: #243fabdb;
 }
 nav{
   float:right;
@@ -44,11 +44,62 @@ nav{
 .companies{
   margin-top: 20px;
   margin-left: 60px;
-
 }
 .company-items{
   text-decoration: none;
   color: #000000;
   font-weight: 400;
   margin-left: 30px;
+}
+.api-heading{
+  font-weight: 600;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+}
+.cards{
+  margin-left: 70px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+}
+.card{
+  width: 20%;
+  
+}
+.card-active{
+  width: 20%;
+  height: 300px;
+  background-color: #fff;
+  margin-right: 50px;
+  box-shadow: 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-logo{
+  margin-left: 3px;
+  margin-top: 30px;
+}
+.card-head-active{
+  color: #000000;
+  margin-left: 30px;
+}
+.card-body{
+  color: #000000;
+  font-size: small;
+  margin-left: 30px;
+}
+.blog-heading{
+  margin-left: 90px;
+}
+.blog-cards{
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+}
+.blog-card{
+  height: 300px;
+  width: 40%;
+
 }
